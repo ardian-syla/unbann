@@ -6,10 +6,10 @@ bot = commands.Bot(command_prefix="!", intents=discord.Intents.default())
 TOKEN = 'MTAzOTI1NTg4ODgyNjk5MDcxMw.GksOfW.QKznFDJbDhbwmd3yvVrJyd2eyuyb7ypybGVQdk'
 
 @bot.command()
-async def check(ctx, pre, type):
+async def check(ctx, pre, type, stat):
     embed =discord.Embed(
-        title= 'New Unbann',
-        description=f'**Username:** {pre}\n**Type:** {type}\n**Status:** Unbanned',
+        title= 'StatChecker',
+        description=f'**Username:** {pre}\n**Type:** {type}\n**Status:** {stat}',
         color=0x774dea
     )
     embed.set_thumbnail(url='https://media.discordapp.net/attachments/930661781498642452/1036703925191057418/tcu.gif')
