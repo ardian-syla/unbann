@@ -8,7 +8,7 @@ TOKEN = 'MTAzOTI1NTg4ODgyNjk5MDcxMw.GksOfW.QKznFDJbDhbwmd3yvVrJyd2eyuyb7ypybGVQd
 @bot.command()
 async def check(ctx, pre, type, stat):
     embed =discord.Embed(
-        title= 'StatChecker',
+        title= 'New Stat',
         description=f'**Username:** {pre}\n**Type:** {type}\n**Status:** {stat}',
         color=0x774dea
     )
